@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica com IA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <center>
+    <div class="inicio">
+    <p class="Titulo">APP Musica para Idosos</p>
+    <p class="descricao">Levante e abaixe os braços para aumentar e diminuir o volume</p>
+    </div>
+    
+    <footer>
+    <div class="velocidade">
+        <img src="disk.gif" alt="">
+        <p class="itens">Velocidade</p>
+        <p id="velocidade"></p>
+    </div>
+    <button onclick="tocar()" class="btn">Tocar</button>
+    <div class="velocidade">
+        <img src="disk.gif" alt="">
+        <p class="itens">Som</p>
+        <br>
+        <p id="Volume"></p>
+    </div>
+    </footer>
+</center>
+<script src="app.js"></script>
+</body>
+</html>
